@@ -11,5 +11,8 @@
             "src": "/(.*)",
             "dest": "/"
         }
+    ],
+    "redirects": [
+        { "source": "/", "destination": "/views/index.ejs" }
     ]
   }
