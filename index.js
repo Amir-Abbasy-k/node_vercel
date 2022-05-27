@@ -2,10 +2,13 @@ const express = require("express");
 
 const app = express();
 
+app.set('view engine', 'ejs');
+
 
 
 app.get('/',(req, res)=>{
-    res.send({msg: "It's working well"})
+    // res.send({msg: "It's working well"})
+    res.render('pages/index');
 })
 
 
